@@ -1,0 +1,42 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Arial", sans-serif;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-box {
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
+
+.output-box {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.math-equation {
+  font-family: "Courier New", monospace;
+  background-color: #f1f1f1;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
